@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Encabezado {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fotoarea {
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px inset rgb(22, 14, 131);
+}
+
+.fotoarea img {
+    width: 100%;
+}
+
+header p {
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+header {
+    padding: 0 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    height: 1838px;
+    padding: 20px 0;
+    border: 10px groove rgb(22, 14, 131);
+}
+
+.secciones h2 {
+    background-color: rgb(22, 14, 131);
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: Segoe Print;
+
+}
+
+.secciones {
+    padding: 10px 40px;
+}
+
+.secciones p {
+    line-height: 2;
+}
+
+.secciones ul li {
+    line-height: 2;
+    margin-left: 20px;
+}
+
+.experiencia ul li{
+    list-style-type: none;
+}
+
+.educacion ul li{
+    list-style-type: none;
+}
+
+.experiencia ul li::before {
+    content: "✔";
+    color: rgb(22, 14, 131);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.educacion ul li::before{
+    content: "❇";
+    color: rgb(22, 14, 131);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.izq {
+    flex: 1;
+    line-height: 2;
+    margin-right: 40px;
+}
+
+.izq h3 {
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.derecha {
+    flex: 1;
+    margin-right: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.derecha h3 {
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+footer {
+    background-color: rgb(7, 4, 46);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial Rounded MT Bold;
+}
+
+footer a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
